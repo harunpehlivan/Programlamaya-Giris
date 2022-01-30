@@ -2,7 +2,7 @@
 def faktoriyel(sayi):
     sonuc=1
     while sayi>=1:
-        sonuc=sonuc*sayi
+        sonuc *= sayi
         sayi-=1
     return sonuc
 
